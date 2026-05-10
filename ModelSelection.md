@@ -729,23 +729,11 @@ $$
 
 Для объектов из control-группы (`W = 0`):
 
-$$
-(1 - W) \cdot \frac{Y - Model^C(X)}{P(W = 0 \mid X)}
-$$
+$$ (1 - W) \cdot \frac{Y - Model^C(X)}{P(W = 0 \mid X)} $$
 
 **Итоговая формула uplift**
 
-$$
-uplift(X)
-=
-Model^T(X)
--
-Model^C(X)
-+
-W \cdot \frac{Y - Model^T(X)}{P(W = 1 \mid X)}
--
-(1 - W) \cdot \frac{Y - Model^C(X)}{P(W = 0 \mid X)}
-$$
+$$ uplift(X) = Model^T(X) - Model^C(X)+ W \cdot \frac{Y - Model^T(X)}{P(W = 1 \mid X)} -(1 - W) \cdot \frac{Y - Model^C(X)}{P(W = 0 \mid X)} $$
 
 Где:
 

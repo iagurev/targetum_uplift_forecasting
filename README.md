@@ -29,3 +29,15 @@
 | 3. Deep Learning | TARNet |
 | 3. Deep Learning | CFRNet + MMD Loss |
 | 3. Deep Learning | DragonNet |
+
+# Запуск
+
+Для корректной работы нужно скачать файл из архива `simulation_test.csv.zip` в корневую папку
+
+Запустить из корня репозитория:
+
+```bash
+streamlit run streamlit_app/app.py
+```
+
+История сохраняется локально в `streamlit_app/app_data/uplift_campaigns.db`. На данный момент предзагружены результаты основных экспериментов

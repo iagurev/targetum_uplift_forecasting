@@ -3,7 +3,7 @@
 Сервис для Uplift-моделирования
 и офлайн-запуска маркетинговых кампаний.
 
-![Targetum: отчёт кампании с фактической прибылью, ROI и Uplift](assets/targetum-preview.png)
+![Targetum: общий вид интерфейса и отчёт кампании](assets/targetum-overview.png)
 
 # Навигация
 
